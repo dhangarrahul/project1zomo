@@ -1,0 +1,1140 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #d32020db;
+    color: black;
+    display: flex;
+    align-items: center;      
+}
+.navlogo{
+    height: 50px;
+    width: 140px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 28px;
+    width: 132px;
+    background-image: url(zomato.png);
+    background-size:cover;
+    margin-left: 30px; 
+    cursor: pointer;
+}
+.nav-search{
+    display: flex;
+    background: #e5d3d3;
+    width: 800px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: center;
+    margin-left: 70px;
+}
+.search-select{
+    background-color: white;    
+    text-align: left;
+    width: 100px;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-top-color: white;     
+}
+.search-input{
+    width: 100%;
+    font-size: 1REM; 
+    border: none;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon:hover{
+    border: 1px solid black;
+}
+
+.search-location{
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+}
+.nav_login{
+    justify-content: center;
+    align-items: CENTER;
+    font-size: 1.2rem;
+    margin-left:40px;
+    cursor: pointer;
+}
+.nav_login:hover{
+     background-color: #fa4561;
+}
+.nav_signup{
+    justify-content: center;
+    align-items: CENTER;
+    font-size: 1.2rem;
+    margin-left:30px;
+    cursor: pointer;
+}
+.nav_signup:hover{
+    background-color: #fa4561;
+    border-color: black;
+}
+
+.navbar2{
+    width: 80%;
+    height: 60px;
+    background-color: #ededf7;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    align-items: center;   
+}
+.dinicon {
+    width: 35px;
+    height: 35px;   
+    background-image: url(dinout.png);
+    background-size: cover; 
+    margin-right: 12px;
+    mix-blend-mode: multiply;
+}
+.dinout:hover{
+    background-color: #cfd4dd;
+}
+.dinout{
+     margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+   
+}
+.delicon {
+    width: 35px;
+    height: 35px;   
+    background-image: url(delivery.png);
+    background-size: cover; 
+    color: #000000;
+    mix-blend-mode: multiply;
+    margin-right: 12px;  
+}
+.delivery:hover{
+    background-color: #cfd4dd;
+}
+.delivery{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600; 
+}
+
+.nightlife{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;    
+    font-weight: 600;
+    color: black;
+}
+.nightlife:hover{
+    background-color: #cfd4dd;
+    
+}
+
+.nightl{
+     width: 35px;
+    height: 35px;   
+    background-image: url(nightlife.png);
+    background-size: cover; 
+    color: #000000;
+    margin-right: 12px;
+    mix-blend-mode: multiply;
+}
+.maincontent{
+    width: 80%;
+    align-content: center;
+    background-color: aliceblue;
+    margin: auto;
+}
+.collections p{
+    margin-top: 15px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 450;
+}
+.col_stat p{
+    color: #848181;    
+    display: contents;
+    font-size: 1.2rem;
+    font-weight: 100;
+    
+}
+.col_stat{
+    margin-top: 50px;
+   
+}
+.coll_pune a{
+    
+    margin-left: 100px;
+    color: red;
+
+}
+.coll_pune{
+    display: inline;
+}
+.events{
+    
+    display: flex;
+    
+}
+.holi {
+    background-image: url(holi.png);
+    background-size: cover;
+    width: 280px;
+    height: 320px; 
+    border-radius: 0.6rem;  
+    font-size: 1rem;
+    cursor: pointer;
+}
+.holi:hover{
+    transform: scale(1.02);
+}
+.holi p{
+    font-size: 1.5rem;
+    color:#f8f4f4;
+    position: relative; 
+    margin-top: 275px;
+}
+.holi p1{
+    color: white;
+    font-weight: bold;
+}
+
+.newrestaurant{
+    background-image: url(newrestaurant.png);
+    background-size: cover;
+    width: 280px;
+    height: 320px; 
+    border-radius: 0.6rem; 
+    margin-left: 20px;
+     cursor: pointer;
+}
+.newrestaurant:hover{
+    transform: scale(1.02);
+}
+.newrestaurant p{
+    font-size: 1.5rem;
+    color:#f8f4f4;
+    position: relative; 
+    margin-top: 275px;
+}
+.newrestaurant p1{
+    color: white;
+    font-weight: bold;
+}
+.livematch{
+    background-image: url(livematch.png);
+    background-size: contain;
+    width: 280px;
+    height: 320px; 
+    border-radius: 0.6rem;
+    margin-left: 20px;
+     cursor: pointer;
+}
+.livematch:hover{
+    transform: scale(1.02);
+}
+.livematch p{
+    font-size: 1.5rem;
+    color:#f8f4f4;
+    position: relative; 
+    margin-top: 275px;
+}
+.livematch p1{
+    color: white;
+    font-weight: bold;
+}
+.bestpune{
+    background-image: url(bestpune.png);
+    background-size: cover;
+    width: 280px;
+    height: 320px; 
+    border-radius: 0.6rem; 
+    margin-left: 20px;
+     cursor: pointer;
+    
+}
+.bestpune:hover{
+    transform: scale(1.02);
+}
+.bestpune p{
+    font-size: 1.5rem;
+    color:black;
+    position: relative; 
+    margin-top: 275px;
+}
+.bestpune p1{
+    color: black;
+    font-weight: bold;
+}
+.zomo{
+    background-image: url(zomo.png);
+    background-size:cover;
+    width: 1080px;
+    height: 251px;
+    margin-top: 30px;
+    border-radius: 0.6rem;
+     cursor: pointer;
+}
+.bestfood{
+    margin-top:15px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.hotels{
+    margin-top: 20px; 
+    display: flex;
+}
+.agentjacks{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+}
+.agentjacks:hover{
+ transform: scale(1.02);
+}
+.agentjacks img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem;  
+}
+.agcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.agcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+.menu {
+    margin-top: 5px;
+    color: #5f5b5b;  
+}
+#menu{
+    font-size: 1rem;
+    margin-top: 7px;
+    color: #988a8a; 
+    display: flex;
+}
+#rs{
+    margin-left: 100px;
+    color: #403e3e;
+    
+}
+.Nimantran{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.Nimantran:hover{
+ transform: scale(1.02);
+}
+.Nimantran img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.nmcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.nmcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.Pimlico{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.Pimlico:hover{
+ transform: scale(1.02);
+}
+.Pimlico img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.pmcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.pmcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+.hotel2{
+    margin-top: 40px; 
+    display: flex;
+}
+.bluenine{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.bluenine:hover{
+ transform: scale(1.02);
+}
+.bluenine img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.bncon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.bncon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+
+.bk{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.bk:hover{
+ transform: scale(1.02);
+}
+.bk img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.bkcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.bkcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.tenthfloor{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.tenthfloor:hover{
+ transform: scale(1.02);
+}
+.tenthfloor img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.tfcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.tfcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.hotel3{
+     margin-top: 40px; 
+    display: flex;
+}
+
+.Sandeep{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.Sandeep:hover{
+ transform: scale(1.02);
+}
+.Sandeep img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.sncon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.sncon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.Shauryawada{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.Shauryawada:hover{
+ transform: scale(1.02);
+}
+.Shauryawada img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.swcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.swcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.BN{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.BN:hover{
+ transform: scale(1.02);
+}
+.BN img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.bncon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.bncon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+
+.hotel4{
+     margin-top: 40px; 
+    display: flex;
+}
+.gong{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.gong:hover{
+ transform: scale(1.02);
+}
+.gong img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.gncon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.gncon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.lassi{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.lassi:hover{
+ transform: scale(1.02);
+}
+.lassi img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.lscon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.lscon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.A1{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.A1:hover{
+ transform: scale(1.02);
+}
+.A1 img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.a1con{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.a1con p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.hotel5{
+     margin-top: 40px; 
+     display: flex;
+}
+.hm{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.hm:hover{
+ transform: scale(1.02);
+}
+.hm img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.hmcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.hmcon p1{
+    margin-left: 120px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.addah{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.addah:hover{
+ transform: scale(1.02);
+}
+.addah img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.adcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.adcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.teera{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.teera:hover{
+ transform: scale(1.02);
+}
+.teera img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.trcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.trcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+
+.hotel6{
+     margin-top: 40px; 
+     display: flex;
+}
+.masaledar{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 10px;
+  
+}
+.masaledar:hover{
+ transform: scale(1.02);
+}
+.masaledar img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.mscon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.mscon p1{
+    margin-left: 120px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.arabian{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.arabian:hover{
+ transform: scale(1.02);
+}
+.arabian img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.arcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.arcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+
+.idli{
+    width: 338px;
+    height: 360px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 400ms;
+    box-shadow: 7px 1px 12px 0px #00000042;
+    margin-left: 22px;
+  
+}
+.idli:hover{
+ transform: scale(1.02);
+}
+.idli img{
+    margin-top: 5px;
+    width: 328px;
+    height: 248px;
+    border-radius: 0.6rem; 
+    margin-left: 5px;
+}
+.idcon{
+    font-size: 1.3rem;
+    margin-top: 12px;
+    font-weight: 250;
+    display: flex;
+     
+}
+.idcon p1{
+    margin-left: 155px;
+    font-size: .8rem;
+    background-color: green;
+    border-radius: 0.2rem;
+    justify-items: center;
+    color: white;
+    border-color: black;
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.lower{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lower p{
+    padding: 15px;
+}
+.cuisine{
+    font-size: 1.4rem;
+    font-weight:300;
+    height: 40px;
+    width: 80%;
+    background-color: ebe6e6;
+    align-content: center;
+    margin: auto;  
+    padding-top:12px;
+    padding-left: 40px;
+}
+.cuisine:hover{
+    background-color: #c7c1c2;
+    border-radius: 15px;
+}
+.cuisine1{
+    font-size: 1.4rem;
+    font-weight:300;
+    height: 40px;
+    width: 80%;
+    background-color: ebe6e6;
+    align-content: center;
+    margin: auto;
+    padding-top:12px;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.cuisine1:hover{
+    background-color: #c7c1c2;
+    border-radius: 15px;
+}
+.cuisine2{
+    font-size: 1.4rem;
+    font-weight:300;
+    height: 40px;
+    width: 80%;
+    background-color: ebe6e6;
+    align-content: center;
+    margin: auto;
+    padding-top:12px;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.cuisine2:hover{
+    background-color: #c7c1c2;
+    border-radius: 15px;
+}
+.cuisine3{
+    font-size: 1.4rem;
+    font-weight:300;
+    height: 40px;
+    width: 80%;
+    background-color: #ebe6e6;
+    align-content: center;
+    margin: auto;
+    padding-top:12px;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+.cuisine3:hover{
+    background-color: #c7c1c2;
+    border-radius: 15px;
+}
+.zomu{
+    background-color: #faf2f2;
+    margin-top:  25px;
+    display: flex;
+    
+}
+.last img{
+    width: 132px;
+    height: 28px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px 48px;
+}
+.last ul li a{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:#4a4242 ;
+}
+.last ul li a:hover{
+    color:black ;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
